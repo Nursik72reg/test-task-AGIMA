@@ -1,0 +1,36 @@
+.btn {
+    margin-top: 8px;
+    background-color: var(--primary-color);
+    border-radius: 100%;
+    border-width: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+
+.size_s {
+    width: var(--font-size-s);
+    height: var(--font-size-s);
+}
+
+.size_m {
+    width: var(--font-size-m);
+    height: var(--font-size-m);
+}
+
+.size_l {
+    width: var(--font-size-l);
+    height: var(--font-size-l);
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
